@@ -1,0 +1,117 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-image: url("img/blueTexture.png");
+
+}
+
+#letter_head {
+	text-align: center;
+	font-family: 'Crushed', cursive;
+	font-size: 40px;
+	border: solid 2px #005d00;
+	box-shadow: 0 0 0 10px black;
+	outline: solid 8px #3366cc;
+	height: auto;
+	background-color: rgba(244, 244, 249, 0.5);
+	position-top: fixed;
+}
+
+.form_letter {
+	padding: 5%;
+	border: solid 4px black;
+	background-color: #caf49d;	
+	outline: solid 8px #3366cc;
+}
+
+.form_letter p {
+	font-family: 'Mountains of Christmas', cursive;
+	font-size: 1.25rem;
+	margin: 20px;
+}
+
+.weekly_order {
+	width: 100%;
+
+	display: inline-block;
+}
+
+tr{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 0%;
+	margin-right: 0%;
+	display: inline-block;
+}
+
+.title tr {
+	text-align: left;
+}
+
+.order {
+	padding-right: 0%;
+	width: 20%;
+	float: left;
+
+}
+
+.address {
+	padding-left: 5%;
+	width: 70%;
+	height: 1.5rem;
+	float: left;
+}
+
+.one {
+	width: 40%;
+	position-left: relative;
+	position-top: 10px;
+}
+
+.two {
+	width: 40%;
+	position-right: relative;
+	position-top: 10px;
+}
+
+.list {
+	background-color: #caf49d;
+	padding: 5px 0px;
+	list-style: none;	
+	border: solid 2px black;
+	font-family: 'Mountains of Christmas', cursive;
+	text-align: center;
+}
+
+
+li {
+	display: inline;
+	background-color: rgba(244, 244, 249, 0.3);
+	width: 100%;
+	padding: 0px 20px;
+	margin: 0px 5%;
+}
+
+
+h3 {
+	font-family: 'Crushed', cursive;
+}
+
+
+img {
+	float: center;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
