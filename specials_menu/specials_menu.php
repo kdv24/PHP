@@ -15,42 +15,18 @@
 <html>
 <head>
 <link href='http://fonts.googleapis.com/css?family=Crushed|Codystar|Stalemate|Henny+Penny|Snowburst+One|Fontdiner+Swanky|Monofett|Slackey|Mountains+of+Christmas|Megrim|Chelsea+Market|Sancreek|Griffy' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>Order Form</title>
+    <title>Specials Menu</title>
 </head>
 
 <body>
 <div id="letter_head">
     <h1>The Brew Coffeehouse</h1>
+    <h2>This Week's Specials</h2>
 </div>
-<div class="form_letter">
-    <p>Hi <?php echo $recipient; ?>, </p><br>
-    <p>Just making my weekly order. Details are below.</p><br>
-    <table class="weekly_order">
-        <tr class="title">
-            <th class="order">Order</th>
-            <th class="address">Address</th>
-        </tr>    
-        <tr>
-            <td class="order"><?php echo $downtown_order; ?></td>
-            <td class="address"><?php echo $downtown_address; ?></td>
-        </tr>
-        <tr>
-            <td class="order"><?php echo $northwest_order; ?></td>
-            <td class="address"><?php echo $northwest_address; ?></td>
-        </tr>
-        <tr>
-            <td class="order"><?php echo $south_order; ?></td>
-            <td class="address"><?php echo $south_address; ?></td> 
-        </tr>
-        <tr>
-            <td class="order"><?php echo $upper_east_side_order; ?></td>
-            <td class="address"><?php echo $upper_east_side_address; ?></td>
-        </tr>
-
-    </table>    
-    <br><p>Thanks,</p>
-    <p>Diane</p>
+<div class="section">
+ 
 </div>
 </body>
 </html>
