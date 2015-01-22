@@ -1,4 +1,83 @@
-h1 {
-	color: blue;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+html {
+	height: 100%;
 }
+
+body {
+	height: 100%;
+	background-color: #caf49d;
+	background-image: url("img/blueTexture.png");
+
+}
+
+#header {
+	text-align: center;
+	font-family: 'Crushed', cursive;
+	font-size: 40px;
+	border: solid 2px #005d00;
+	box-shadow: 0 0 0 10px black;
+	outline: solid 8px #3366cc;
+	height: auto;
+	background-color: rgba(244, 244, 249, 0.5);
+	position-top: fixed;
+}
+
+
+
+.paragraph {
+	background-color: tomato;
+	font-family: 'Mountains of Christmas', cursive;
+	font-size: 25px;
+	border: solid 2px black;
+	display: inline-block;
+	margin: 20px;
+}
+
+.one {
+	width: 40%;
+	position-left: relative;
+	position-top: 10px;
+}
+
+.two {
+	width: 40%;
+	position-right: relative;
+	position-top: 10px;
+}
+
+.list {
+	background-color: #caf49d;
+	padding: 5px 0px;
+	list-style: none;	
+	border: solid 2px black;
+	font-family: 'Mountains of Christmas', cursive;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	background-color: rgba(244, 244, 249, 0.3);
+	width: 100%;
+	padding: 0px 20px;
+	margin: 0px 5%;
+}
+
+
+h3 {
+	font-family: 'Crushed', cursive;
+}
+
+
+img {
+	float: center;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
