@@ -1,3 +1,71 @@
 body {
-    background-color: #D5E1CC;
+    background-color: tomato;
+}
+
+.page-header {
+	font-family: 'Merienda One', cursive;
+	color: tomato;
+	background-color: #602D07;
+}
+
+.page-header h1 {
+	font-size: 6rem;
+}
+
+.page-header h3 {
+	padding-left: 5%;	
+}
+
+.nav {
+	float: right;
+	padding-bottom: 5%;
+}
+
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #ADAB2D;
+}
+
+.nav-pill a:hover {
+	color: black;
+	background-color: orange;
+}
+
+a {
+  color: #ADAB2D;
+  text-decoration: none;
+  background-color: #F4F3DB;
+}
+
+
+
+.thumbnail {
+	background-color: #F4F3DB;
+	height: 200px;
+}
+
+
+.caption h3 {
+	color: #602D07;
+	text-align: center;
+}
+
+.caption p {
+	font-style: italic;
+	color: #8D5604;
+	text-align: center;
+}
+
+.thumbnail .enjoy h1 {
+	font-family: 'Merienda One', cursive;
+	text-align: center;
+	font-size: 5rem;
+	padding: 15%;
+	color: tomato;
+	background-color: #602D07; 
+	border-top-left-radius: 70%;
+	border-bottom-right-radius: 70%;
 }

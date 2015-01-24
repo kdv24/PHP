@@ -14,7 +14,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='http://fonts.googleapis.com/css?family=Crushed|Codystar|Stalemate|Henny+Penny|Snowburst+One|Fontdiner+Swanky|Monofett|Slackey|Mountains+of+Christmas|Megrim|Chelsea+Market|Sancreek|Griffy' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Crushed|Codystar|Stalemate|Henny+Penny|Snowburst+One|Fontdiner+Swanky|Monofett|Slackey|Mountains+of+Christmas|Megrim|Chelsea+Market|Sancreek|Griffy' rel='stylesheet' type='text/css'>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Order Form</title>
 </head>
@@ -26,6 +33,7 @@
 <div class="form_letter">
     <p>Hi <?php echo $recipient; ?>, </p><br>
     <p>Just making my weekly order. Details are below.</p><br>
+    <div .container>
     <table class="weekly_order">
         <tr class="title">
             <th class="order">Order</th>
@@ -53,4 +61,6 @@
     <p>Diane</p>
 </div>
 </body>
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </html>
