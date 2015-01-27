@@ -1,7 +1,8 @@
 <?php 
-	$friend_name = "Otto";
-	$friends_so = "Eddie";
+	$friend_name = $_GET["recipient"];
+	$friends_so = $_GET["so"];
 	$friends_pet = "Edna";
+    $signed = $_GET["signed"];
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +18,6 @@
     <p><?php echo $friend_name; ?>, you would not believe how cold it is here. I should have gone to Hawaii instead. But I like programming a lot, so I've got that going for me. </p>
     <p>Looking forward to seeing you soon and getting to say hi to <?php echo $friends_pet; ?>. I'll bring you back a souvenir. </p>
     <p>Cheers,</p>
-    <p>Diane</p>
+    <p> <?php echo $signed; ?></p>
 </body>
 </html>

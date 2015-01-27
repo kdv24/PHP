@@ -43,6 +43,10 @@ a {
   background-color: #F4F3DB;
 }
 
+.letter {
+	padding-left: 20%;
+}
+
 #home_page img {
 	margin-top: 0%;
 	opacity: 90%;
@@ -106,15 +110,4 @@ a {
 	border-bottom-right-radius: 70%;
 }
 
-#home_page {
-	display: show;
-}
-
-#menu {
-	display: none;
-}
-
-#specials {
-	display: none;
-}
 
